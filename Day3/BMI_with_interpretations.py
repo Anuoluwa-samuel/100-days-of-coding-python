@@ -4,10 +4,10 @@
 #If the bmi is between 18.5 (including) and 25 (not including), print out "normal weight"
 # If the bmi is 25 (including) or over, print out "overweight"
 
-weight =int(input())
-height = 1.85
+Weight = float(input("Enter your weight in KG\n"))
+Height = float(input("Enter your height in m\n"))
 
-bmi = weight / (height ** 2)
+bmi = Weight / (Height ** 2)
 
 if bmi <= 18.5:
     print("underweight")
@@ -15,5 +15,3 @@ elif bmi <= 25:
     print("normal weight")
 else:
     print("overweight")
-# 🚨 Do not modify the values above
-# Write your code below 👇
