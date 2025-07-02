@@ -10,7 +10,7 @@ elif tip == 15:
 else:
     tip = tip/100
 
-people = int(in)
+people = int(input("How many people are splitting the bill? \n="))
 
 
 
