@@ -12,7 +12,7 @@ else:
 
 people = int(input("How many people are splitting the bill? \n="))
 
-bills = 
+total bill = 
 print(f"Tip amount is ${tip * bill}")
 
 
