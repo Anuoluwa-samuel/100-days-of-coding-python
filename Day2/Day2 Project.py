@@ -8,4 +8,5 @@ elif tip == 12:
 elif tip == 15:
     tip = 0.15,
 else:
-    
+    tip = float(tip/100, 2)
+print(tip)
