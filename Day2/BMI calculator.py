@@ -6,4 +6,4 @@ Height = float(input("Enter your height in m\n"))
 
 BMI = float(Weight / (Height)**2)
 
-print(BMI)
+print(f"You currently weigh {Weight} kg and you are {Height}")
