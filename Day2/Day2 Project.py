@@ -9,6 +9,11 @@ elif tip == 15:
     tip = 0.15
 else:
     tip = tip/100
+
+people = int(in)
+
+
+
 print(f"Tip amount is ${tip * bill}")
 
 
