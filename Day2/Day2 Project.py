@@ -1,2 +1,2 @@
 print("Welcome to the tip calculator")
-bill = input("What was the total bill?: ")
+bill = input("What was the total bill?: \n")
