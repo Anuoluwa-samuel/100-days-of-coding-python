@@ -2,6 +2,8 @@
 # bmi is equal to the person's weight divided by the person's height squared.
 
 Weight = float(input("Enter your weight in KG\n"))
-Height = float(input("Enter your height in cm"))
+Height = float(input("Enter your height in cm\n"))
 
-BMI = w
+BMI = float(Weight / (Height)**2, 2)
+
+print(BMI)
