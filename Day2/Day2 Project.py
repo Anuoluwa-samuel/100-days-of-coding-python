@@ -12,7 +12,7 @@ else:
 
 people = int(input("How many people are splitting the bill? \n="))
 bill = (total_bill + (tip * total_bill)) / (people)
-print(f"Each person is to pay ${bill}")
+print(f"Each person is to pay ${bill:.2f}")
 
 
 
