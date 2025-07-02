@@ -11,8 +11,8 @@ else:
     tip = tip/100
 
 people = int(input("How many people are splitting the bill? \n="))
-bill =  total_bill + (tip * total_bill)
-print(f"Tip amount is ${tip * bill}")
+bill = (total_bill + (tip * total_bill)
+print(f"Tip amount is ${bill}")
 
 
 
