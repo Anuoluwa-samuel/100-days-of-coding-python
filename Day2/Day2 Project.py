@@ -7,7 +7,8 @@ elif tip == 12:
     tip = 0.12
 elif tip == 15:
     tip = 0.15
-
+else:
+    tip = tip/100
 print(f"Tip amount is ${tip * bill}")
 
 
