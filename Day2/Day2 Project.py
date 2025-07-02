@@ -9,4 +9,4 @@ people = int(input("How many people are splitting the bill? \n="))
 bill = (total_bill + (tip * total_bill)) / (people)
 print(f"Each person is to pay ${bill:.2f}")
 
-# There are more simpler ways to get to the solution
+# There are more simpler ways to get to the solution    
