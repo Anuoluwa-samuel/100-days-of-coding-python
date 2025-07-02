@@ -3,12 +3,11 @@ bill = input("What was the total bill: \n")
 tip = input("How much tip would you like to give?, $10, $12 or $20? \n")
 if tip == 10 :
     tip = 0.1,
+    print(f"Tip amount is ${tip * float(bill)}")
 elif tip == 12:
     tip = 0.12,
 elif tip == 15:
     tip = 0.15,
-else:
-    tip = (tip / 100)
 
-    
-print(f"{tip:.2f}")
+
+
