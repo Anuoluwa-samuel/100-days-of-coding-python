@@ -11,3 +11,5 @@ elif size == "M":
     price = 20
 elif size == "L":
     price = 25
+else:
+    print("Invalid size. Please choose S, M or L.")
