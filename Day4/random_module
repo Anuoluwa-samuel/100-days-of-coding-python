@@ -1,3 +1,4 @@
 import random
 
-random.randint(1, 10)
+Random = random.randint(1, 10)
+print(Random)
