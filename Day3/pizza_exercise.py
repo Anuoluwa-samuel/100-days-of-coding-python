@@ -10,20 +10,20 @@ if size == "S":
         price += 2
     if pepperoni == "N":
         price == 15
-        if extra_cheese == "Y":
+    if extra_cheese == "Y":
             price += 1
-        else:
+    else:
             price == 15
-            print(f"Your final bill is {price}")
+            print(f"Your final bill is ${price}")
 elif size == "M":
     price = 20
     if pepperoni == "Y":
         price += 3
     elif pepperoni == "N":
         price == 20
-        if extra_cheese == "Y":
+    if extra_cheese == "Y":
             price += 1
-        else:
+    else:
             price == 20
         
 elif size == "L":
