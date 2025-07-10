@@ -22,9 +22,11 @@ elif size == "M":
     elif pepperoni == "N":
         price == 20
     if extra_cheese == "Y":
-            price += 1
+        price += 1
+    elif extra_cheese == "N":
+        price == 20
     else:
-            price == 20
+        price == 20
         
 elif size == "L":
     price = 25
