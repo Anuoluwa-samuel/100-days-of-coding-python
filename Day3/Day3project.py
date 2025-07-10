@@ -23,4 +23,4 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
 print("You are at a cross road. where do you want to go?")
-road = input("Type 'left' or ")
+road = input("Type 'left' to go left or 'right' to go right")
