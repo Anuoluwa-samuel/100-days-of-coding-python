@@ -17,12 +17,13 @@ elif size == "M":
         price += 3
     else:
         price == 20
+        if extra_cheese == "Y":
 elif size == "L":
     price = 25
     if pepperoni == "Y":
         price += 3
     else:
-        price == 20
+        price == 25
 
 print(f"Your final bill is {price}")
 # else:
