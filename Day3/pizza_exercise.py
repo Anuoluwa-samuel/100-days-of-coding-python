@@ -7,4 +7,7 @@ extra_cheese = input("Do you want extra cheese? Y or N: ")
 
 if size == "S":
     price = 15 
-    elif size == "M":
+elif size == "M":
+    price = 20
+elif size == "L":
+    price = 25
