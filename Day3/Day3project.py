@@ -26,7 +26,7 @@ print("You are at a cross road. where do you want to go?")
 road = input("Type 'left' to go left or 'right' to go right\n")
 if road == "left":
     print("You have come to a lake. There is an island in the middle of the lake")
-    Lake = input("Type 'wait' to wait for a boat or 'swim' to swim across\n")
+    Lake = input("Type 'wait' to wait for a boat or 'swim' to swim across\n").lower()
     if Lake == "wait":
         print("You arrived at the island unarmed. There is a house with 3 doors ")
     else:
