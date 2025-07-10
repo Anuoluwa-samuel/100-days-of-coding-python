@@ -9,7 +9,9 @@ if size == "S":
     price = 15 
     if pepperoni == "Y":
         price += 2
-    print("Your final bill is {PRICE}")
+    elif pepperoni == "N":
+        price 
+    print(f"Your final bill is {price}")
     
     
 elif size == "M":
