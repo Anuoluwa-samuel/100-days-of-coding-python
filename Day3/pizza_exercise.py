@@ -12,8 +12,6 @@ if size == "S":
     elif pepperoni == "N":
         price == 15
     print(f"Your final bill is {price}")
-    
-    
 elif size == "M":
     price = 20
 elif size == "L":
