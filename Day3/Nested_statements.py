@@ -7,9 +7,9 @@ if height >= 120:
     if age <= 13:
         print("To take the ride You need to pay 20 naira")
     elif age <= 19:
-        print("To take the ride You need  to pay 30 naira")
+        print("To take the ride You need to pay 30 naira")
     elif age <= 30:
-        print("Oh ye adult, Your ride fee is 50 naira")
+        print("Oh ye adult,you need to pay 50 naira")
     else:
         print("Ancient one, You need to pay 100 naira")
 
