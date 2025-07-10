@@ -31,8 +31,11 @@ if road == "left":
         print("You arrived at the island unarmed. There is a house with 3 doors ")
     else:
         print("You drowned in the lake. Game over")
-    Door = (input("One is Red, One is Yellow, One is Blue, which one would you open"))
-    
+    Door = (input("One is red, One is yellow, One is blue, which one would you open"))
+    if Door == "red":
+        print("You got burned by fire. Game over")
+    elif Door == "yellow" :
+        
 
         
 else:
