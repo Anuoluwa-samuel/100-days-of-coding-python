@@ -5,7 +5,7 @@ pepperoni = input("Do you want pepperoni on your pizza? Y or N: ")
 extra_cheese = input("Do you want extra cheese? Y or N: ")
 
 if size == "S":
-    price = 15 
+    price = 15
     if pepperoni == "Y":
         price += 2
     elif pepperoni == "N":
@@ -16,7 +16,7 @@ if size == "S":
         price == 20
     else:
             price == 15
-    print(f"Your final bill is ${price}")
+    print(f"Your final bill is: ${price}.")
 elif size == "M":
     price = 20
     if pepperoni == "Y":
@@ -29,7 +29,7 @@ elif size == "M":
         price == 20
     else:
         price == 20
-    print(f"Your final bill is ${price}")    
+    print(f"Your final bill is: ${price}.")
 elif size == "L":
     price = 25
     if pepperoni == "Y":
@@ -42,6 +42,6 @@ elif size == "L":
         price == 25
     else:
         price == 25
-    print(f"Your final bill is ${price}")
+    print(f"Your final bill is: ${price}.")
 else:
     print("You have entered an invalid data")
