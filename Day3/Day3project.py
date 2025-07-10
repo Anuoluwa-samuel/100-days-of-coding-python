@@ -25,3 +25,5 @@ print("Your mission is to find the treasure.")
 print("You are at a cross road. where do you want to go?")
 road = input("Type 'left' to go left or 'right' to go right\n")
 if road == "left":
+    print("You have come to a lake. There is an island in the middle of the lake")
+    
