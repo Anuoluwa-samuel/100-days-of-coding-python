@@ -9,7 +9,7 @@ if size == "S":
     price = 15 
     if pepperoni == "Y":
         price += 2
-    else:
+    elif:
         price == 15
         if extra_cheese == "Y":
             price += 1
@@ -38,5 +38,3 @@ elif size == "L":
             price == 20
 
 print(f"Your final bill is {price}")
-# else:
-#     print("Invalid size. Please choose S, M or L.")
