@@ -31,7 +31,7 @@ if road == "left":
         print("You arrived at the island unarmed. There is a house with 3 doors ")
     else:
         print("You drowned in the lake. Game over")
-    
+    print("One is Red, One is Yellow, One is Blue, which one would you ")
         
 else:
     print("You fell into a hole. GAME OVER")
