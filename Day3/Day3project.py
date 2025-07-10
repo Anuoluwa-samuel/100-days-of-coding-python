@@ -39,6 +39,5 @@ if road == "left":
     else:
         print("You got the treasure, Congratulations. YOU WIN")
 
-
 else:
     print("You fell into a hole. GAME OVER")
