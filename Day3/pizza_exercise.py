@@ -30,8 +30,10 @@ elif size == "L":
         price == 25
         if extra_cheese == "Y":
             price += 1
-    print(f"Your final bill is {price}")
+ 
 else:
     print("Invalid size")
+
+print(f"Your final bill is {price}")
 # else:
 #     print("Invalid size. Please choose S, M or L.")
