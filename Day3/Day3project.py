@@ -28,5 +28,6 @@ if road == "left":
     print("You have come to a lake. There is an island in the middle of the lake")
     lake = input("Type 'wait' to wait for a boat or 'swim' to swim across\n")
     if lake == "wait":
+        print("You arrived at the island unarmed ")
 else:
     print("You fell into a hole. GAME OVER")
