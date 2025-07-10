@@ -9,7 +9,7 @@ if size == "S":
     price = 15 
     if pepperoni == "Y":
         price += 2
-    elif:
+    elif pepperoni == "N":
         price == 15
         if extra_cheese == "Y":
             price += 1
@@ -19,7 +19,7 @@ elif size == "M":
     price = 20
     if pepperoni == "Y":
         price += 3
-    else:
+    elif pepperoni == "N":
         price == 20
         if extra_cheese == "Y":
             price += 1
