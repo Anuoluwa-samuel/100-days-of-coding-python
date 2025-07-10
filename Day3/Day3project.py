@@ -30,12 +30,14 @@ if road == "left":
     if Lake == "wait":
         print("You arrived at the island unarmed. There is a house with 3 doors ")
     else:
-        print("You drowned in the lake. Game over")
+        print("You drowned in the lake. GAME OVER")
     Door = (input("One is red, One is yellow, One is blue, which one would you open"))
     if Door == "red":
-        print("You got burned by fire. Game over")
+        print("You got burned by fire. GAME OVER")
     elif Door == "yellow" :
-        
+        print("You just met your nemesis. GAME OVER ")
+    else:
+        print("You got the treasure, Congratulations. YOU WIN")
 
         
 else:
