@@ -5,8 +5,9 @@ pepperoni = input("Do you want pepperoni on your pizza? Y or N: ")
 extra_cheese = input("Do you want extra cheese? Y or N: ")
 
 
-if size == "S", :
+if size == "S":
     price = 15 
+    print("Your final bill is $15")
     
 elif size == "M":
     price = 20
