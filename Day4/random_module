@@ -4,5 +4,5 @@ random_integer = random.randint(0, 1)
 if random_integer == 0:
     print("Heads")
 else: 
-    print()
-print(random_integer)
+    print("Tails")
+# print(random_integer)
