@@ -33,6 +33,7 @@ else:
           ''')
     
 computer = random.randint(0, 2)
+print(computer)
 if computer == 0:
     print(r'''
          _______
@@ -81,5 +82,6 @@ elif user == 1:
 elif user == 0:
     computer == 2
     print("You win!")
-else
+else:
+    print("It's a tie")
 
