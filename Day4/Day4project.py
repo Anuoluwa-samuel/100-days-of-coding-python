@@ -53,5 +53,14 @@ elif computer == 1:
       ---.__________)
           ''')
     
-    
-print(random.choice(computer))
+else:
+    print(r'''
+          _______
+      ---'   ____)____
+                ______)
+             __________)
+             (____)
+      ---.__(___)
+          ''')
+
+if user 
