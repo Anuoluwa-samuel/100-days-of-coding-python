@@ -74,6 +74,6 @@ elif user == 1:
 elif user == 2:
     computer == 0
     print("You lose!")
-elif user == 1:
-    computer == 0
+elif user == 2:
+    computer == 1
     print("You win!")
