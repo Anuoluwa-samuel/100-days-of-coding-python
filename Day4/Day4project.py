@@ -33,4 +33,6 @@ else:
           ''')
     
 computer = random.randint(0, 2)
+if computer == 0
+print()
 print(random.choice(computer))
