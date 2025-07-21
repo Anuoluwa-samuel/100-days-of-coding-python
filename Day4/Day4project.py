@@ -1,4 +1,4 @@
-if User == "rock" and Computer == "scissors":
+if :
     print("User wins")
 
 if User == "scissors" and Computer == "paper":
@@ -9,6 +9,11 @@ if User == "paper" and Computer == "rock":
 
 if User == Computer:
     print("It's User tie")
+
+if (User == "scissors" and Computer == "rock") or \
+   (User == "paper" and Computer == "scissors") or \
+   (User == "rock" and Computer == "paper"):
+    print("Computer wins")
 
 if (User == "scissors" and Computer == "rock") or \
    (User == "paper" and Computer == "scissors") or \
