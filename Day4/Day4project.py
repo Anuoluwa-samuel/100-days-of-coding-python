@@ -43,6 +43,15 @@ if computer == 0:
       ---.__(___)
 
       ''')
+elif computer == 1:
+    print(r'''
+          _______
+      ---'   ____)____
+                ______)
+                _______)
+                _______)
+      ---.__________)
+          ''')
     
     
 print(random.choice(computer))
