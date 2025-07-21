@@ -4,5 +4,5 @@ if a == "rock" and b == "scissors":
 if a == "scissors" and b == "paper":
     print("a wins")
 
-if a == "paper" and b == "rock":
+if use= "paper" and b == "rock":
     print("a wins")
