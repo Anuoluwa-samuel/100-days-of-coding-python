@@ -3,7 +3,7 @@ import random
 print("what do you choose? Type 0 for rock, 1 for paper or 2 for scissors.")
 game = input(">").lower()
 
-if game == 1:
+if game == 0:
     print(r'''
           _______
       ---'   ____)
@@ -13,7 +13,7 @@ if game == 1:
       ---.__(___)
 
           ''')
-elif game == 2:
+elif game == 1:
     print(r'''
           _______
       ---'   ____)____
@@ -33,6 +33,16 @@ else:
           ''')
     
 computer = random.randint(0, 2)
-if computer == 0
-print()
+if computer == 0:
+    print(r'''
+         _______
+      ---'   ____)
+            (_____)
+            (_____)
+             (____)
+      ---.__(___)
+
+      ''')
+    
+    
 print(random.choice(computer))
