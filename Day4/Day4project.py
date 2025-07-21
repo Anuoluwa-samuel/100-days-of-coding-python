@@ -1,9 +1,9 @@
 import random 
 
 print("what do you choose? Type 0 for rock, 1 for paper or 2 for scissors.")
-game = input(">").lower()
+user = input(">").lower()
 
-if game == 0:
+if user == 0:
     print(r'''
           _______
       ---'   ____)
@@ -13,7 +13,7 @@ if game == 0:
       ---.__(___)
 
           ''')
-elif game == 1:
+elif user == 1:
     print(r'''
           _______
       ---'   ____)____
@@ -63,4 +63,5 @@ else:
       ---.__(___)
           ''')
 
-if user 
+if user == computer:
+    print("It's a tie!")
