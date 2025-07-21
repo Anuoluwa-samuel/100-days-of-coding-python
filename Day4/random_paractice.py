@@ -1,4 +1,4 @@
 squares = []
-for i in range(12):
+for i in range(1, 12):
     squares.append(i**2)
 print(squares)
