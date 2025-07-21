@@ -32,4 +32,5 @@ else:
       ---.__(___)
           ''')
     
-print("computer chose: \n")
+comuputer = random.randint(0, 2)
+print(random.choice)
