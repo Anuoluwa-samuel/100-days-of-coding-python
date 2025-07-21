@@ -63,9 +63,7 @@ else:
       ---.__(___)
           ''')
 
-if user == computer:
-    print("It's a tie!")
-elif user == 0:
+if user == 0:
     computer == 1
     print("You lose!")
 elif user == 1:
@@ -79,9 +77,9 @@ elif user == 2:
     print("You win!")
 elif user == 1:
     computer == 2
-    print("You win!")
+    print("You lose!")
 elif user == 0:
     computer == 2
     print("You win!")
-
+else
 
