@@ -70,4 +70,10 @@ elif user == 0:
     print("You lose!")
 elif user == 1:
     computer == 0
-    print("Paper covers rock! You win!")
+    print("You win!")
+elif user == 2:
+    computer == 0
+    print("You lose!")
+elif user == 1:
+    computer == 0
+    print("You win!")
