@@ -32,4 +32,4 @@ else:
       ---.__(___)
           ''')
     
-print
+print("computer chose: \n")
