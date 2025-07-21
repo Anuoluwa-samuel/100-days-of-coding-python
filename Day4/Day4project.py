@@ -33,4 +33,4 @@ else:
           ''')
     
 computer = random.randint(0, 2)
-print(random.choice)
+print(random.choice(computer))
