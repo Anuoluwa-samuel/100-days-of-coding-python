@@ -9,7 +9,7 @@ if user == 0:
       ---'   ____)
             (_____)
             (_____)
-    VK      (____)
+             (____)
       ---.__(___)
 
           ''')
@@ -65,3 +65,6 @@ else:
 
 if user == computer:
     print("It's a tie!")
+elif user == 0:
+    computer == 1
+    print("Rock smashes scissors! You win!")
