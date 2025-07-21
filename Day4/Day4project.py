@@ -1,16 +1,16 @@
-if user == "rock" and b == "scissors":
-    print("user wins")
+if User == "rock" and Computer == "scissors":
+    print("User wins")
 
-if user == "scissors" and b == "paper":
-    print("user wins")
+if User == "scissors" and Computer == "paper":
+    print("User wins")
 
-if user == "paper" and b == "rock":
-    print("user wins")
+if User == "paper" and Computer == "rock":
+    print("User wins")
 
-if user == b:
-    print("It's user tie")
+if User == Computer:
+    print("It's User tie")
 
-if (user == "scissors" and b == "rock") or \
-   (user == "paper" and b == "scissors") or \
-   (user == "rock" and b == "paper"):
-    print("b wins")
+if (User == "scissors" and Computer == "rock") or \
+   (User == "paper" and Computer == "scissors") or \
+   (User == "rock" and Computer == "paper"):
+    print("Computer wins")
