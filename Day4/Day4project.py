@@ -1,1 +1,1 @@
-Print('what do you choose? )
+print(input"what do you choose? Type 0 for rock, 1 for paper or 2 for scissors.")
