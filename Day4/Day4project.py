@@ -32,5 +32,5 @@ else:
       ---.__(___)
           ''')
     
-comuputer = random.randint(0, 2)
+computer = random.randint(0, 2)
 print(random.choice)
