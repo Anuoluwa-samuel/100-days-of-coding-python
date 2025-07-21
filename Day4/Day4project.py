@@ -1,9 +1,9 @@
-if (User == "scissors" and Computer == "rock") or \
-   (User == "paper" and Computer == "scissors") or \
-   (User == "rock" and Computer == "paper"):
-    print("Computer wins")
+if (user == "scissors" and computer_choice == "rock") or \
+   (user == "paper" and computer_choice == "scissors") or \
+   (user == "rock" and computer_choice == "paper"):
+    print("computer_choice wins")
 
-if (User == "rock" and Computer == "scissors") or \
-   (User == "scissors" and Computer == "paper") or \
-   (User == "paper" and Computer == "rock"):
-    print("Computer wins")
+if (user == "rock" and computer_choice == "scissors") or \
+   (user == "scissors" and computer_choice == "paper") or \
+   (user == "paper" and computer_choice == "rock"):
+    print("You wins")
