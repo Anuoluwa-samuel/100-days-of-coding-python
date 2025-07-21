@@ -77,3 +77,11 @@ elif user == 2:
 elif user == 2:
     computer == 1
     print("You win!")
+elif user == 1:
+    computer == 2
+    print("You win!")
+elif user == 0:
+    computer == 2
+    print("You win!")
+
+
