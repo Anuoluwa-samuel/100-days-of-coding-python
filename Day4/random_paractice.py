@@ -1,6 +1,6 @@
 import random
 
-friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
+friends = ["Ayomide", "Leyito", "Lumi", "Elenu", "Sparrow"]
 
 print(random.choice(friends))
 
