@@ -33,7 +33,7 @@ else:
           ''')
     
 computer = random.randint(0, 2)
-print(computer)
+print(random.choice(computer))
 if computer == 0:
     print(r'''
          _______
