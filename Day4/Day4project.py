@@ -68,3 +68,6 @@ if user == computer:
 elif user == 0:
     computer == 1
     print("Rock smashes scissors! You win!")
+elif user == 1:
+    computer == 0
+    print("Paper covers rock! You win!")
