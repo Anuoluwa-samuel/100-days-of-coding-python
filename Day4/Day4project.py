@@ -44,7 +44,7 @@ else:
 computer_choice = random.randint(0,2)
 print(f"Computer chose {computer_choice}")
 if computer_choice == 0:
-    print(f"you chose"{rock})
+    print(rock)
 elif computer_choice == 1:
     print(paper)
 elif computer_choice == 2:
