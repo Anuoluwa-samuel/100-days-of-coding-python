@@ -40,9 +40,9 @@ else:
     print("Invalid input! You lose.")
     exit()
 
-print(user)
 
 computer_choice = random.randint(0,2)
+print(f"Computer chose {com}")
 if computer_choice == 0:
     print(rock)
 elif computer_choice == 1:
