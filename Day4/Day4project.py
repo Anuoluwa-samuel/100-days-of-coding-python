@@ -42,7 +42,6 @@ else:
 
 print(user)
 
-print("Computer chose")
 computer_choice = random.randint(0,2)
 if computer_choice == 0:
     print(rock)
